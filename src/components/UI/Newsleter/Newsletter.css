@@ -1,0 +1,34 @@
+.nevsletter{
+    background: var(--newsletter-bg);
+}
+
+.newsletter__warapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.newsletter__form, .newsletter__content{
+    width: 50%;
+}
+
+.newsletter__form input {
+    padding: 0.7rem 1.5rem;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+}
+
+.newsletter__form {
+    padding: 0.4rem 1rem;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 0.5rem;
+}
+
+.light-theme .nevsletter{
+    background:  #c0d6e2;
+}
